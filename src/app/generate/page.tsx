@@ -113,7 +113,7 @@ const GeneratePage = () => {
               type="text"
               value={link}
               onChange={handleLinkChange}
-              className="border border-slate-200 w-full mt-2 p-3 outline-none rounded text-sm"
+              className="border border-slate-200 text-slate-800 w-full mt-2 p-3 outline-none rounded text-sm"
               placeholder="urqr.vercel.app"
             />
           </div>
@@ -122,7 +122,7 @@ const GeneratePage = () => {
             <input
               type="file"
               onChange={handleImageChange}
-              className="border border-slate-200 w-full mt-2 p-3 outline-none rounded text-sm"
+              className="border border-slate-200 text-slate-800 w-full mt-2 p-3 outline-none rounded text-sm"
             />
           </div>
           <div className="mt-3 flex gap-4">
